@@ -18,6 +18,7 @@ pipeline{
                 {
               steps{
                   script{
+			    sh "sleep 100"
 		            echo "$Docker_tag"
 			
                        }
