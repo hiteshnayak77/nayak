@@ -18,7 +18,7 @@ pipeline{
                 {
               steps{
                   script{
-		            echo "Docker_tag"
+		            echo "$Docker_tag"
 			
                        }
                     }
